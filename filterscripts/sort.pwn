@@ -15,7 +15,7 @@ public OnFilterScriptInit()
 		array[i] = random(1001) - random(1001);
 
 	for(new i; i < array_size; i ++)
-		printf("beforte sorting: idx %i = %i", i, array[i]);
+		printf("before sorting: idx %i = %i", i, array[i]);
 
     pre_tick = GetTickCount();
 	sqlSort(array, .order = sqlSort_Descending); // Descending Order
